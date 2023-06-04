@@ -42,15 +42,6 @@ resource "aws_instance" "Priv1-ec2" {
   associate_public_ip_address = false
   subnet_id                   = aws_subnet.private_subnet1.id
   security_groups             = [aws_security_group.db-sg.id]
-
-  user_data = <<-EOF
-    #!/bin/bash
-    yum update -y
-    yum install -y httpd
-    systemctl start httpd
-    systemctl enable httpd
-    echo "<h1>Code finally Worked.DB instance launched in us-east-1a!!!</h1>" > var/www/html/index.html
-    EOF
 }
 
 resource "aws_instance" "Priv2-ec2" {
@@ -59,14 +50,5 @@ resource "aws_instance" "Priv2-ec2" {
   associate_public_ip_address = false
   subnet_id                   = aws_subnet.private_subnet2.id
   security_groups             = [aws_security_group.db-sg.id]
-
-  user_data = <<-EOF
-    #!/bin/bash
-    yum update -y
-    yum install -y httpd
-    systemctl start httpd
-    systemctl enable httpd
-    echo "<h1>Code finally Worked.DB instance launched in us-east-1b!!!</h1>" > var/www/html/index.html
-    EOF
 }
 
