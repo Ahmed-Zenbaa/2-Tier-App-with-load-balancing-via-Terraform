@@ -43,6 +43,7 @@ Road-Map:
 6)Provision Target Group for The Application Load Balancer and have the (App) EC2 Instances as his targets.
 7)Provision 2 EC2 Instances (DB) inside 2 private subnets.
 8)Provision Application Load Balancer to balance load between the 2 (DB) EC2 Instances.
+	*I added an ALB and not a NLB because NLB had a bug where you can't specify trget groups attached to it.
 9)Provision Target Group for The Application Load Balancer and have the (DB) EC2 Instances as his targets.
 8)Store the state file on (S3 Bucket) and lock it by (DynamoDB).
 
