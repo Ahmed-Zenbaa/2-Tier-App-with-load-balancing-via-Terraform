@@ -1,8 +1,8 @@
 # 2-Tier-App-via-Terraform
 ######################################################################################
 
-	  This 2-Tier App via Terraform project
-     	     was created By: Eng/Ahmed Zenbaa
+	  	This 2-Tier App via Terraform project
+     	    	   was created By: Eng/Ahmed Zenbaa
 
 ######################################################################################
 
