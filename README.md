@@ -7,6 +7,11 @@
 
 ######################################################################################
 
+Credit where credit is due:
+Special thanks to (Eng/Sameh Tawfik) https://github.com/sameh-Tawfiq for his instructions, effort and guidance through my learning process.
+
+######################################################################################
+
 Note the following:
 
 1)make sure to change S3 Bucket Name as it's a unique name.
@@ -49,11 +54,6 @@ Road-Map:
 9)Provision Target Group for The Application Load Balancer and have the (DB) EC2 Instances as his targets.
 10)Store the state file on (S3 Bucket) and lock it by (DynamoDB).
 
-
-######################################################################################
-
-Credit where credit is due:
-Special thanks to (Eng/Sameh Tawfik) for his instructions, effort and guidance through my learning process.
 
 ######################################################################################
 
