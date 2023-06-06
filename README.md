@@ -1,4 +1,5 @@
 # 2-Tier-App-via-Terraform
+***open in raw form for better readability***
 ######################################################################################
 
 	  	This 2-Tier App via Terraform project
@@ -42,6 +43,7 @@ Road-Map:
 5)Provision Application Load Balancer to balance load between the 2 (App) EC2 Instances.
 6)Provision Target Group for The Application Load Balancer and have the (App) EC2 Instances as his targets.
 7)Provision 2 EC2 Instances (DB) inside 2 private subnets.
+	*I used EC2 instances and not DB instances to have morer options to the DB you can use.
 8)Provision Application Load Balancer to balance load between the 2 (DB) EC2 Instances.
 	*I added an ALB and not a NLB because you can't specify security groups attached to it (probably a bug).
 9)Provision Target Group for The Application Load Balancer and have the (DB) EC2 Instances as his targets.
