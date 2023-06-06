@@ -27,7 +27,7 @@ Note the following:
 NOW:
 
 -you should have 2 Ec2 instances running the App with a load balancer on them.
--you can check load balancing working properly by searching with the DNS of Load Balancer on the web.
+-you can check load balancing working properly by searching with the DNS of (my-alb) Load Balancer on the web.
 -It should show on the web page that 2 instances on 2 different availability zones are load balanceed.
 -you should have 2 Ec2 instances ruuning the DB with a load balancer on them.
 -state file should be stored in the S3 Bucket.
