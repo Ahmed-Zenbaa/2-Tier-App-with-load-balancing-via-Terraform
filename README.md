@@ -47,7 +47,7 @@ Road-Map:
 8)Provision Application Load Balancer to balance load between the 2 (DB) EC2 Instances.
 	*I added an ALB and not a NLB because you can't specify security groups attached to it (probably a bug).
 9)Provision Target Group for The Application Load Balancer and have the (DB) EC2 Instances as his targets.
-8)Store the state file on (S3 Bucket) and lock it by (DynamoDB).
+10)Store the state file on (S3 Bucket) and lock it by (DynamoDB).
 
 
 ######################################################################################
