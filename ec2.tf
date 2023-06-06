@@ -12,7 +12,7 @@ resource "aws_instance" "Pub1-ec2" {
     yum install -y httpd
     systemctl start httpd
     systemctl enable httpd
-    echo "<h1>Code finally Worked.EC2 instance launched in us-east-1a!!!</h1>" > var/www/html/index.html
+    echo "<h1>(App) EC2 instance launched in us-east-1a!!!</h1>" > var/www/html/index.html
     EOF
 }
 
@@ -29,7 +29,7 @@ resource "aws_instance" "Pub2-ec2" {
     yum install -y httpd
     systemctl start httpd
     systemctl enable httpd
-    echo "<h1>Code finally Worked.EC2 instance launched in us-east-1b!!!</h1>" > var/www/html/index.html
+    echo "<h1>(App) EC2 instance launched in us-east-1b!!!</h1>" > var/www/html/index.html
     EOF
 }
 
