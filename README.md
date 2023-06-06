@@ -7,11 +7,6 @@
 
 ######################################################################################
 
-Credit where credit is due:
-Special thanks to (Eng/Sameh Tawfik) https://github.com/sameh-Tawfiq for his instructions, effort and guidance through my learning process.
-
-######################################################################################
-
 Note the following:
 
 1)make sure to change S3 Bucket Name as it's a unique name.
